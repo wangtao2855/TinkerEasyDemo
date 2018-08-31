@@ -19,11 +19,11 @@ tinkerSupport {
     // 编译补丁包时，必需指定基线版本的apk，默认值为空
     // 如果为空，则表示不是进行补丁包的编译
     // @{link tinkerPatch.oldApk }
-    baseApk = "${bakPath}/animationdemo-0831-17-22-09/animationdemo-release.apk"
+    baseApk = "${bakPath}/animationdemo-0831-17-43-27/animationdemo-release.apk"
     // 对应tinker插件applyMapping
-    baseApkProguardMapping = "${bakPath}/animationdemo-0831-17-22-09/animationdemo-release-mapping.txt"
+    baseApkProguardMapping = "${bakPath}/animationdemo-0831-17-43-27/animationdemo-release-mapping.txt"
     // 对应tinker插件applyResourceMapping
-    baseApkResourceMapping = "${bakPath}/animationdemo-0831-17-22-09/animationdemo-release-R.txt"
+    baseApkResourceMapping = "${bakPath}/animationdemo-0831-17-43-27/animationdemo-release-R.txt"
     // 构建基准包跟补丁包都要修改tinkerId，主要用于区分
     tinkerId = "1.1.1-patch"
     // 打多渠道补丁时指定目录
